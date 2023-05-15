@@ -91,3 +91,22 @@ a {
     color: white;
     text-transform: uppercase;
 }
+
+.skill-name {
+    font-size: 0.65rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+
+.progress-bar {
+    border: 1px solid white;
+    height: 4px;
+}
+progress::-webkit-progress-bar {
+    background-color: #0063B2;
+ }
+ progress::-webkit-progress-value {
+    background-color: white;
+ }

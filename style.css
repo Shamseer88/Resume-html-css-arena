@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 300px 90%;
+    min-height: 1000px;
+}
+
+.left-section {
+    grid-column: 1;
+    background-color: #0063B2;
+    padding: 1rem;
+}
+
+.right-section {
+    grid-column: 2;
+    background-color: #9CC3D5;
+}
+
+.profile-image {
+    display: block;
+    margin: auto;
+    border: 5px solid white;
+    max-width: 60%;
+}
+
+.name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+    color: white;
+}
+
+.designation {
+    color: #9CC3D5;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+hr {
+    border-top: 1px solid white;
+}
+
+.description {
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+
+.social-media {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.fa-brands {
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-details{
+    padding: 15px;
+}
+.contact-details a {
+    color: #9CC3D5;
+    font-size: 0.9rem;
+}
+.contact-details a i {
+    padding-top: 10px;
+}
+
+.skills {
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 1rem 0.5rem;
+    color: white;
+    text-transform: uppercase;
+}
